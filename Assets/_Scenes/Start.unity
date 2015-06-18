@@ -223,6 +223,7 @@ MonoBehaviour:
   m_SubmitButton: Submit
   m_CancelButton: Cancel
   m_InputActionsPerSecond: 10
+  m_RepeatDelay: .5
   m_AllowActivationOnMobileDevice: 0
 --- !u!114 &141300457
 MonoBehaviour:
@@ -475,8 +476,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 0, y: -90}
-  m_SizeDelta: {x: 143, y: 25}
+  m_AnchoredPosition: {x: 0, y: -80}
+  m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &507736847
 MonoBehaviour:
@@ -493,7 +494,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: .848275781, b: 0, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4af87d760548aa645b6c9c72fea17017, type: 3}
-    m_FontSize: 26
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -582,6 +583,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
 --- !u!4 &825889903
 Transform:
   m_ObjectHideFlags: 0
@@ -626,7 +628,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 335, y: 45}
+  m_SizeDelta: {x: 506, y: 85}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1601515059
 MonoBehaviour:
@@ -643,7 +645,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: .848275781, b: 0, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: 443bdd23a2adb5f44ab5a9ddbebd4261, type: 3}
-    m_FontSize: 48
+    m_FontSize: 70
     m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 10
